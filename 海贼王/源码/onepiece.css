@@ -1,0 +1,213 @@
+body,ul ,html{
+	padding:0;
+	margin:0;
+}
+.clearfix:after{
+	content:" ";
+	display: block;
+	clear: both;
+}
+.layout{
+	width: 900px;
+	margin: 0 auto;
+}
+.nav{
+	background: rgba(0,0,0,0.7);
+	width: 100%;
+	position: fixed;
+	top: 0;
+	z-index: 1;
+}
+.nav ul li{
+ 	list-style: none;
+ 	float: right;
+ 	font-weight: bold;
+ 	padding-top: 20px;
+ 	padding-bottom: 20px;
+ 	margin-right: 40px;
+}
+.nav ul li a{
+	text-decoration: none;
+	color: white;
+}
+.wrapper{
+	background: url("../image/daohang/banner.jpg") no-repeat;
+	width: 100%;
+	height: 700px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+.wrapper p{
+	margin: 0;
+	color: white;
+	font-size: 50px;
+	text-shadow: 5px 3px 10px #ee82ee;
+}
+.transport{
+	margin-top: 80px;
+}
+.transport h1{
+	text-align: center;
+}
+.transport1 img{
+	height: 150px;
+	width: 100%;
+	box-shadow: 0 2px 2px 6px #87cefa;
+}
+.transport1{
+	float: left;
+	width: 30%;
+	margin-left: 3%;
+}
+.transport1 h3{
+	text-align: center;
+}
+.transport1 p{
+	font-family: "楷体";
+}
+.person h1{
+	text-align: center;
+}
+.person1{
+	float: left;
+	width: 30%;
+	margin-left: 3%;
+	margin-top: 40px;
+}
+.person1 h3{
+	text-align: center;
+}
+.person1 a img{
+	height: 150px;
+	width: 100%;
+	box-shadow: 0 2px 2px 6px #87cefa;
+}
+.person1 p{
+	font-family: "楷体";
+}
+.person1 a{
+	width: 100%;
+	height: 150px;
+	display: block;
+	position: relative;
+}
+.person1 a .hover{
+	position: absolute;
+	background: #87cefa;
+	opacity: 0;
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.person1 a .hover:hover{
+	opacity: 0.7;
+}
+.icon{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.plots h1{
+	text-align: center;
+	margin-bottom: 40px;
+}
+.plot img{
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+	border: 2px solid #888;
+	
+}
+.plot p{
+	font-family: "楷体";
+}
+
+
+.plot1 img,.plot5 img,.plot3 img{
+	margin-right: 350px;
+	float: right;
+	margin-top: 40px;
+}
+.plot1 p,.plot3 p,.plot5 p{
+	width:200px;
+	margin-left: 120px;
+	text-align:right;
+	padding-top:95px;
+	margin-top: 0;
+}
+.plot2 img, .plot4 img{
+	float: left;
+	margin-left: 350px;
+	margin-top: 40px;
+}
+.plot2 p,.plot4 p{
+	width: 200px;
+	float: right;
+	margin-right: 100px;
+	padding-top: 60px;
+}
+.plot{
+	position: relative;
+}
+.plot1:after,.plot2:after,.plot3:after,.plot4:after{
+	content:" ";
+	position: absolute;
+	width: 2px;
+	height:40px ;
+	background: #888;
+	left:50%;
+}
+.fruit h1{
+	text-align: center;
+	margin-bottom: 40px;
+	margin-top: 70px;
+}
+.fruit1 {
+	width: 200px;
+	float: left;
+	width:30%;
+	margin-left: 3%;
+}
+.fruit1 img{
+	width:100%;
+	height: 200px;
+	box-shadow: 0 2px 2px 6px #87cefa;
+}
+.fruit h3{
+	text-align: center;
+}
+.fruit p{
+	font-family: "楷体";
+}
+.contact input{
+	width: 300px;
+	height: 60px;
+	margin-bottom: 20px;
+	margin-left: 10px;
+}
+.contact input:nth-child(1){
+	margin-left:100px;
+}
+.contact textarea{
+	width: 618px;
+	height: 180px;
+	margin-left: 10px;
+	display: block;
+	margin-left: 100px;
+}
+.contact h1{
+	text-align: center;
+}
+.contact{
+	background: url("../image/daohang/banner1.jpg") no-repeat;
+	width:100%;
+	height: 700px;
+}
+.contact input:nth-child(4){
+	width:100px;
+	margin-left: 350px;
+	margin-top: 10px;
+}
